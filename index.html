@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 
 <html lang="uk">
@@ -10,105 +11,77 @@
 
     <title>Про мене</title>
 
+    <link rel="stylesheet" href="style.css">
+
 </head>
 
-<body style="background-color:#f4f7fb; font-family:Arial, sans-serif; text-align:center; color:#333333; margin:0; padding:20px;">
+<body>
 
  
 
-    <h1 style="color:#2c3e50; margin-bottom:25px; font-size:36px;">Моя сторінка</h1>
+    <h1>Моя сторінка</h1>
 
  
 
-    <ul style="list-style:none; padding:0; margin:0 0 30px 0; text-align:center;">
+    <ul class="menu">
 
-        <li style="display:inline-block; margin:8px;">
+        <li><a href="index.html">Головна</a></li>
 
-            <a href="index.html" style="display:inline-block; text-decoration:none; background-color:#4a90e2; color:white; padding:12px 22px; border-radius:8px; font-weight:bold;">Головна</a>
+        <li><a href="pages/contact.html">Контакти</a></li>
 
-        </li>
-
-        <li style="display:inline-block; margin:8px;">
-
-            <a href="pages/contact.html" style="display:inline-block; text-decoration:none; background-color:#4a90e2; color:white; padding:12px 22px; border-radius:8px; font-weight:bold;">Контакти</a>
-
-        </li>
-
-        <li style="display:inline-block; margin:8px;">
-
-            <a href="pages/gallery.html" style="display:inline-block; text-decoration:none; background-color:#4a90e2; color:white; padding:12px 22px; border-radius:8px; font-weight:bold;">Галерея</a>
-
-        </li>
+        <li><a href="pages/gallery.html">Галерея</a></li>
 
     </ul>
 
  
 
-    <div style="max-width:750px; margin:0 auto; background-color:white; padding:30px; border-radius:12px; box-shadow:0 4px 14px rgba(0,0,0,0.10);">
+    <div class="container">
 
-        <div style="font-size:24px; color:#8e44ad; margin-top:10px; margin-bottom:15px; font-weight:bold;">
-
-            Коротко про мене
-
-        </div>
+        <div class="section-title">Коротко про мене</div>
 
  
 
-        <img src="pages/photo/myphoto.jpg" width="200" alt="Моє фото"
-
-             style="border-radius:12px; margin-top:15px; margin-bottom:20px; box-shadow:0 4px 10px rgba(0,0,0,0.15);">
+        <img src="pages/photo/myphoto.jpg" alt="Моє фото" class="main-photo">
 
  
 
-        <p style="line-height:1.7; font-size:18px;">Мене звати Владислав. Я живу в Україні.</p>
+        <p>Мене звати Владислав. Я живу в Україні.</p>
 
-        <p style="line-height:1.7; font-size:18px;">Мені подобається вивчати тестування, працювати за комп’ютером та розвиватися в IT.</p>
+        <p>Мені подобається вивчати тестування, працювати за комп’ютером та розвиватися в IT.</p>
 
-        <p style="line-height:1.7; font-size:18px;">Я уважний до деталей, люблю спокійну роботу та намагаюся завжди доводити справи до кінця.</p>
-
- 
-
-        <div style="font-size:24px; color:#8e44ad; margin-top:25px; margin-bottom:15px; font-weight:bold;">
-
-            Мої інтереси
-
-        </div>
+        <p>Я уважний до деталей, люблю спокійну роботу та намагаюся завжди доводити справи до кінця.</p>
 
  
 
-        <ul style="display:inline-block; text-align:left; margin-top:10px; margin-bottom:20px; padding-left:20px; font-size:18px;">
+        <div class="section-title">Мої інтереси</div>
 
-            <li style="margin-bottom:8px;">Тестування сайтів</li>
+        <ul class="info-list">
 
-            <li style="margin-bottom:8px;">Перегляд відео та стрімів</li>
+            <li>Тестування сайтів</li>
 
-            <li style="margin-bottom:8px;">Вивчення нових програм</li>
+            <li>Перегляд відео та стрімів</li>
+
+            <li>Вивчення нових програм</li>
 
         </ul>
 
  
 
-        <div style="font-size:24px; color:#8e44ad; margin-top:25px; margin-bottom:15px; font-weight:bold;">
+        <div class="section-title">Мої цілі</div>
 
-            Мої цілі
+        <ol class="goal-list">
 
-        </div>
+            <li>Покращити знання HTML</li>
 
- 
+            <li>Навчитися працювати з Git та GitHub</li>
 
-        <ol style="display:inline-block; text-align:left; margin-top:10px; margin-bottom:20px; padding-left:20px; font-size:18px;">
-
-            <li style="margin-bottom:8px;">Покращити знання HTML</li>
-
-            <li style="margin-bottom:8px;">Навчитися працювати з Git та GitHub</li>
-
-            <li style="margin-bottom:8px;">Знайти хорошу роботу в IT</li>
+            <li>Знайти хорошу роботу в IT</li>
 
         </ol>
 
  
 
-        <p style="margin-top:30px; color:#666666; font-style:italic; font-size:18px;">2026 Моя навчальна сторінка</p>
+        <p class="footer-text">2026 Моя навчальна сторінка</p>
 
     </div>
 
