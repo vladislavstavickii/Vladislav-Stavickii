@@ -1,6 +1,6 @@
 body {
 
-    background-color: #f4f4f4;
+    background-color: #f4f7fb;
 
     font-family: Arial, sans-serif;
 
@@ -22,6 +22,8 @@ h1 {
 
     margin-bottom: 25px;
 
+    font-size: 36px;
+
 }
 
  
@@ -32,7 +34,9 @@ h1 {
 
     padding: 0;
 
-    margin-bottom: 30px;
+    margin: 0 0 30px 0;
+
+    text-align: center;
 
 }
 
@@ -42,7 +46,7 @@ h1 {
 
     display: inline-block;
 
-    margin: 0 10px;
+    margin: 8px;
 
 }
 
@@ -50,15 +54,21 @@ h1 {
 
 .menu a {
 
+    display: inline-block;
+
     text-decoration: none;
 
     background-color: #4a90e2;
 
     color: white;
 
-    padding: 10px 18px;
+    padding: 12px 22px;
 
-    border-radius: 6px;
+    border-radius: 8px;
+
+    font-weight: bold;
+
+    transition: 0.3s;
 
 }
 
@@ -74,15 +84,17 @@ h1 {
 
 .content {
 
-    max-width: 700px;
+    max-width: 750px;
 
     margin: 0 auto;
 
     background-color: white;
 
-    padding: 25px;
+    padding: 30px;
 
-    border-radius: 10px;
+    border-radius: 12px;
+
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.10);
 
 }
 
@@ -92,7 +104,7 @@ h1 {
 
     display: block;
 
-    font-size: 22px;
+    font-size: 24px;
 
     color: #8e44ad;
 
@@ -100,17 +112,21 @@ h1 {
 
     margin-bottom: 15px;
 
+    font-weight: bold;
+
 }
 
  
 
 .main-photo {
 
-    border-radius: 10px;
+    border-radius: 12px;
 
     margin-top: 15px;
 
     margin-bottom: 20px;
+
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
 
 }
 
@@ -118,7 +134,9 @@ h1 {
 
 p {
 
-    line-height: 1.6;
+    line-height: 1.7;
+
+    font-size: 18px;
 
 }
 
@@ -134,6 +152,10 @@ p {
 
     margin-bottom: 20px;
 
+    padding-left: 20px;
+
+    font-size: 18px;
+
 }
 
  
@@ -143,5 +165,77 @@ p {
     margin-top: 30px;
 
     color: #666666;
+
+    font-style: italic;
+
+}
+
+ 
+
+.contact-box {
+
+    max-width: 450px;
+
+    margin: 0 auto 25px auto;
+
+    padding: 20px;
+
+    background-color: #eef4ff;
+
+    border: 1px solid #cdddf7;
+
+    border-radius: 10px;
+
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+
+}
+
+ 
+
+.links-list li {
+
+    margin-bottom: 10px;
+
+}
+
+ 
+
+.links-list a {
+
+    color: #2c3e50;
+
+    text-decoration: none;
+
+    font-weight: bold;
+
+}
+
+ 
+
+.links-list a:hover {
+
+    color: #4a90e2;
+
+}
+
+ 
+
+.gallery-images {
+
+    margin-top: 20px;
+
+    margin-bottom: 25px;
+
+}
+
+ 
+
+.gallery-images img {
+
+    margin: 10px;
+
+    border-radius: 10px;
+
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
 
 }
