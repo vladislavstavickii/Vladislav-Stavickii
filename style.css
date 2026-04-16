@@ -72,17 +72,9 @@ h1 {
 
  
 
-.menu a:hover {
+.container {
 
-    background-color: #357abd;
-
-}
-
- 
-
-.content {
-
-    max-width: 750px;
+    max-width: 850px;
 
     margin: 0 auto;
 
@@ -100,8 +92,6 @@ h1 {
 
 .section-title {
 
-    display: block;
-
     font-size: 24px;
 
     color: #8e44ad;
@@ -117,6 +107,8 @@ h1 {
  
 
 .main-photo {
+
+    width: 200px;
 
     border-radius: 12px;
 
@@ -140,7 +132,11 @@ p {
 
  
 
-.info-list {
+.info-list,
+
+.goal-list,
+
+.links-list {
 
     display: inline-block;
 
@@ -158,13 +154,13 @@ p {
 
  
 
-.footer-text {
+.info-list li,
 
-    margin-top: 30px;
+.goal-list li,
 
-    color: #666666;
+.links-list li {
 
-    font-style: italic;
+    margin-bottom: 10px;
 
 }
 
@@ -190,14 +186,6 @@ p {
 
  
 
-.links-list li {
-
-    margin-bottom: 10px;
-
-}
-
- 
-
 .links-list a {
 
     color: #2c3e50;
@@ -205,14 +193,6 @@ p {
     text-decoration: none;
 
     font-weight: bold;
-
-}
-
- 
-
-.links-list a:hover {
-
-    color: #4a90e2;
 
 }
 
@@ -230,10 +210,26 @@ p {
 
 .gallery-images img {
 
+    width: 250px;
+
     margin: 10px;
 
     border-radius: 10px;
 
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
+
+}
+
+ 
+
+.footer-text {
+
+    margin-top: 30px;
+
+    color: #666666;
+
+    font-style: italic;
+
+    font-size: 18px;
 
 }
