@@ -10,229 +10,105 @@
 
     <title>Галерея</title>
 
- 
-
-    <style>
-
-        body {
-
-            background-color: #f4f7fb;
-
-            font-family: Arial, sans-serif;
-
-            text-align: center;
-
-            color: #333333;
-
-            margin: 0;
-
-            padding: 20px;
-
-        }
-
- 
-
-        h1 {
-
-            color: #2c3e50;
-
-            margin-bottom: 25px;
-
-            font-size: 36px;
-
-        }
-
- 
-
-        .menu {
-
-            list-style: none;
-
-            padding: 0;
-
-            margin: 0 0 30px 0;
-
-            text-align: center;
-
-        }
-
- 
-
-        .menu li {
-
-            display: inline-block;
-
-            margin: 8px;
-
-        }
-
- 
-
-        .menu a {
-
-            display: inline-block;
-
-            text-decoration: none;
-
-            background-color: #4a90e2;
-
-            color: white;
-
-            padding: 12px 22px;
-
-            border-radius: 8px;
-
-            font-weight: bold;
-
-        }
-
- 
-
-        .content {
-
-            max-width: 850px;
-
-            margin: 0 auto;
-
-            background-color: white;
-
-            padding: 30px;
-
-            border-radius: 12px;
-
-            box-shadow: 0 4px 14px rgba(0, 0, 0, 0.10);
-
-        }
-
- 
-
-        .section-title {
-
-            display: block;
-
-            font-size: 24px;
-
-            color: #8e44ad;
-
-            margin-top: 25px;
-
-            margin-bottom: 15px;
-
-            font-weight: bold;
-
-        }
-
- 
-
-        .gallery-images img {
-
-            margin: 10px;
-
-            border-radius: 10px;
-
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
-
-        }
-
- 
-
-        .info-list {
-
-            display: inline-block;
-
-            text-align: left;
-
-            margin-top: 10px;
-
-            margin-bottom: 20px;
-
-            padding-left: 20px;
-
-            font-size: 18px;
-
-        }
-
- 
-
-        .footer-text {
-
-            margin-top: 30px;
-
-            color: #666666;
-
-            font-style: italic;
-
-        }
-
-    </style>
-
 </head>
 
-<body>
+<body style="background-color:#f4f7fb; font-family:Arial, sans-serif; text-align:center; color:#333333; margin:0; padding:20px;">
 
  
 
-    <h1>Галерея</h1>
+    <h1 style="color:#2c3e50; margin-bottom:25px; font-size:36px;">Галерея</h1>
 
  
 
-    <ul class="menu">
+    <ul style="list-style:none; padding:0; margin:0 0 30px 0; text-align:center;">
 
-        <li><a href="../index.html">Головна</a></li>
+        <li style="display:inline-block; margin:8px;">
 
-        <li><a href="contact.html">Контакти</a></li>
+            <a href="../index.html" style="display:inline-block; text-decoration:none; background-color:#4a90e2; color:white; padding:12px 22px; border-radius:8px; font-weight:bold;">Головна</a>
 
-        <li><a href="gallery.html">Галерея</a></li>
+        </li>
+
+        <li style="display:inline-block; margin:8px;">
+
+            <a href="contact.html" style="display:inline-block; text-decoration:none; background-color:#4a90e2; color:white; padding:12px 22px; border-radius:8px; font-weight:bold;">Контакти</a>
+
+        </li>
+
+        <li style="display:inline-block; margin:8px;">
+
+            <a href="gallery.html" style="display:inline-block; text-decoration:none; background-color:#4a90e2; color:white; padding:12px 22px; border-radius:8px; font-weight:bold;">Галерея</a>
+
+        </li>
 
     </ul>
 
  
 
-    <div class="content">
+    <div style="max-width:850px; margin:0 auto; background-color:white; padding:30px; border-radius:12px; box-shadow:0 4px 14px rgba(0,0,0,0.10);">
 
-        <b class="section-title">Мої зображення</b>
+        <div style="font-size:24px; color:#8e44ad; margin-top:10px; margin-bottom:15px; font-weight:bold;">
 
- 
-
-        <div class="gallery-images">
-
-            <img src="image2.jpg.jpg" width="250" alt="Зображення 1">
-
-            <img src="image3.jpg.jpg" width="250" alt="Зображення 2">
+            Мої зображення
 
         </div>
 
  
 
-        <b class="section-title">Що є на цій сторінці</b>
+        <div style="margin-top:20px; margin-bottom:25px;">
 
-        <ul class="info-list">
+            <img src="image2.jpg.jpg" width="250" alt="Зображення 1"
 
-            <li>Фотографії</li>
+                 style="margin:10px; border-radius:10px; box-shadow:0 4px 10px rgba(0,0,0,0.12);">
 
-            <li>Просте меню</li>
+            <img src="image3.jpg.jpg" width="250" alt="Зображення 2"
 
-            <li>Навігація між сторінками</li>
+                 style="margin:10px; border-radius:10px; box-shadow:0 4px 10px rgba(0,0,0,0.12);">
+
+        </div>
+
+ 
+
+        <div style="font-size:24px; color:#8e44ad; margin-top:25px; margin-bottom:15px; font-weight:bold;">
+
+            Що є на цій сторінці
+
+        </div>
+
+ 
+
+        <ul style="display:inline-block; text-align:left; margin-top:10px; margin-bottom:20px; padding-left:20px; font-size:18px;">
+
+            <li style="margin-bottom:8px;">Фотографії</li>
+
+            <li style="margin-bottom:8px;">Просте меню</li>
+
+            <li style="margin-bottom:8px;">Навігація між сторінками</li>
 
         </ul>
 
  
 
-        <b class="section-title">Порядок перегляду сторінок</b>
+        <div style="font-size:24px; color:#8e44ad; margin-top:25px; margin-bottom:15px; font-weight:bold;">
 
-        <ol class="info-list">
+            Порядок перегляду сторінок
 
-            <li>Відкрити головну сторінку</li>
+        </div>
 
-            <li>Перейти в контакти</li>
+ 
 
-            <li>Перейти в галерею</li>
+        <ol style="display:inline-block; text-align:left; margin-top:10px; margin-bottom:20px; padding-left:20px; font-size:18px;">
+
+            <li style="margin-bottom:8px;">Відкрити головну сторінку</li>
+
+            <li style="margin-bottom:8px;">Перейти в контакти</li>
+
+            <li style="margin-bottom:8px;">Перейти в галерею</li>
 
         </ol>
 
  
 
-        <p class="footer-text">Сторінка із зображеннями</p>
+        <p style="margin-top:30px; color:#666666; font-style:italic; font-size:18px;">Сторінка із зображеннями</p>
 
     </div>
 
